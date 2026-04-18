@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Trebuchet MS", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(191, 219, 254, 0.9), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(186, 230, 253, 0.9), transparent 28%),
+    linear-gradient(135deg, #eff6ff 0%, #dbeafe 48%, #f8fbff 100%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
